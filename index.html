@@ -103,7 +103,7 @@
             </ul>
      
             <h4>Code Repository:</h4>
-            <p><a href="https://github.com/Vinodyvini?tab=repositories" target="_blank">View on GitHub</a></p>
+            <p><a href="https://github.com/Vinodyvini/Take-home-Coding-Assignment.git" target="_blank">View on GitHub</a></p>
             <p>LiveDemo: <a
                 href="https://github.com/Vinodyvini/Take-home-Coding-Assignment/blob/0b05c27688f19355dabecd845a3b3a3247152408/README.md"
                 target="_blank">LiveDemo of App</a></p>
@@ -309,14 +309,83 @@
      
             <h4>Code Repository:</h4>
             <p><a href="https://github.com/Vinodyvini/Vinod-JavaFSD05Nov2023-Assignments-FE-G4B4_HTML-CSS_GradedProject1-.git" target="_blank">View on GitHub</a></p>
-        </div>   
+        </div>  
+        <div class="project">
+            <h3>Employee Management System (MVC Project)</h3>
+            <p>
+                An Employee Management System built using Spring Boot and Thymeleaf with full MVC architecture. This system allows users to manage employee records by viewing, adding, updating, and deleting records.
+            </p>
+     
+            <h4>Key Features:</h4>
+            <ul>
+                <li><strong>View All Records:</strong> Fetch and display a list of all employees from the database.</li>
+                <li><strong>Insert New Records:</strong> Add new employee records through a user-friendly form.</li>
+                <li><strong>Update Existing Records:</strong> Edit details of an existing employee record.</li>
+                <li><strong>Delete Records:</strong> Remove an employee record from the database.</li>
+            </ul>
+     
+            <h4>Technology Stack:</h4>
+            <p><strong>Backend:</strong> Spring Boot, Spring MVC, Spring Data JPA<br><strong>Frontend:</strong> Thymeleaf, HTML, CSS</p>
+     
+            <h4>Operation Descriptions:</h4>
+            <ul>
+                <li><strong>View All Employees:</strong> Using a GET request mapped to `/employees`, this page displays all employee records in a table format.</li>
+                <li><strong>Add New Employee:</strong> A POST request to `/employees/add` that handles form submissions for new employee data.</li>
+                <li><strong>Update Employee:</strong> Mapped to `/employees/edit/{id}`, this allows editing an existing record.</li>
+                <li><strong>Delete Employee:</strong> Accessible via a DELETE request at `/employees/delete/{id}`, allowing users to remove a record.</li>
+            </ul>
+     
+            <h4>Code Repository:</h4>
+            <p><a href="https://github.com/Vinodyvini/Vinod_BED_Lab5_Spring_MVC.git" target="_blank">View on GitHub</a></p>
+            <p>LiveDemo: <a
+                href="https://drive.google.com/file/d/1yLfaWP7ZxJcAIVoP4mjqBv1bYJLbh6gI/view?usp=sharing"
+                target="_blank">LiveDemo of App</a></p>
+        </div> 
+        <div class="project">
+            <h3>Debate Event Registration System</h3>
+            <p>
+                A dynamic web application created for managing student registrations for a college debate event. Developed with Spring MVC and Hibernate ORM, this application performs CRUD operations on a database table and includes a security layer with role-based access control.
+            </p>
+     
+            <h4>Key Features:</h4>
+            <ul>
+                <li><strong>Insert Records:</strong> Allows authorized users to add new student registrations to the database.</li>
+                <li><strong>Update Records:</strong> Enables admins to edit existing student details.</li>
+                <li><strong>Delete Records:</strong> Admins can delete a student's record from the table.</li>
+                <li><strong>View All Records:</strong> Lists all registered students with details such as ID, first name, last name, course, and country.</li>
+                <li><strong>Role-Based Access Control:</strong> Includes two roles, USER and ADMIN. 
+                    <ul>
+                        <li><strong>ADMIN:</strong> Can perform all operations (view, save, update, delete).</li>
+                        <li><strong>USER:</strong> Can only view and save details.</li>
+                    </ul>
+                </li>
+            </ul>
+     
+            <h4>Technology Stack:</h4>
+            <p><strong>Backend:</strong> Spring MVC, Hibernate ORM<br><strong>Database:</strong> MySQL<br><strong>Security:</strong> Spring Security</p>
+     
+            <h4>Operation Descriptions:</h4>
+            <ul>
+                <li><strong>Insert Record:</strong> A POST request at `/students/add` that saves new student information.</li>
+                <li><strong>Update Record:</strong> Allows admins to edit a student's details with a POST request to `/students/edit/{id}`.</li>
+                <li><strong>Delete Record:</strong> Accessible only to admins via a DELETE request at `/students/delete/{id}`.</li>
+                <li><strong>View All Records:</strong> Displays all records in a table format using a GET request at `/students`.</li>
+                <li><strong>Security:</strong> Utilizes Spring Security to restrict CRUD access based on user roles.</li>
+            </ul>
+     
+            <h4>Code Repository:</h4>
+            <p><a href="https://github.com/Vinodyvini/Vinod_BED_Lab6_Student_Database_Management_App.git" target="_blank">View on GitHub</a></p>
+            <p>LiveDemo: <a
+                href="https://drive.google.com/file/d/1PQIZl547hQBocsxt8n6TsHWCglv2hsNn/view?usp=sharing"
+                target="_blank">LiveDemo of App</a></p>
+        </div>
         <!-- Add more projects as needed -->
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
         <p>Email: yvini93@gmail.com</p>
-        <p>LinkedIn: <a href="https://github.com/Vinodyvini/Take-home-Coding-Assignment.git" target="_blank">Vinod Yadav</a></p>
+        <p>LinkedIn: <a href="www.linkedin.com/in/vinod-yadav-9837a1146" target="_blank">Vinod Yadav</a></p>
         <p>GitHub: <a href="https://github.com/Vinodyvini?tab=repositories" target="_blank">Vinod’s GitHub</a></p>
     </section>
 
