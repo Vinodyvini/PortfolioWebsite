@@ -57,3 +57,19 @@ footer {
     margin-top: 20px;
     font-size: 0.9em;
 }
+.work-experience {
+    max-width: 800px; /* Set a max width for the section */
+    margin: 20px auto; /* Center the section horizontally */
+    padding: 20px; /* Add some padding */
+    background-color: #e0f7fa; /* Light blue background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.experience {
+    margin-bottom: 20px; /* Space between each experience section */
+    padding: 15px; /* Padding inside each experience box */
+    background-color: #ffffff; /* White background for each experience */
+    border-radius: 5px; /* Slightly rounded corners */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
