@@ -446,6 +446,40 @@
             <h4>Code Repository:</h4>
             <p><a href="https://github.com/Vinodyvini/Vinod_DSA_Group_Assignment2.git" target="_blank">View on GitHub</a></p>
         </div>
+        <div class="project">
+            <h3>Banking Application System</h3>
+            <p>
+                A console-based application designed for managing customer bank accounts, enabling functionalities like checking balance, depositing, withdrawing, and transferring funds. The application includes features for validating customer credentials and generating OTPs for secure transactions.
+            </p>
+        
+            <h4>Key Features:</h4>
+            <ul>
+                <li><strong>Check Balance:</strong> Customers can view their account balance securely.</li>
+                <li><strong>Deposit Funds:</strong> Allows customers to deposit money into their accounts.</li>
+                <li><strong>Withdraw Funds:</strong> Enables customers to withdraw money, ensuring sufficient balance before processing.</li>
+                <li><strong>Transfer Funds:</strong> Customers can transfer money to another account after validating with an OTP.</li>
+                <li><strong>Secure Login:</strong> Utilizes account number and password validation for secure access.</li>
+            </ul>
+        
+            <h4>Technology Stack:</h4>
+            <p>
+                <strong>Backend:</strong> Java<br>
+                <strong>Framework:</strong> Spring (for a potential future enhancement)<br>
+                <strong>Database:</strong> MySQL (for account details in future versions)
+            </p>
+        
+            <h4>Operation Descriptions:</h4>
+            <ul>
+                <li><strong>Login:</strong> Users enter their account number and password to access their accounts.</li>
+                <li><strong>Check Balance:</strong> A call to the method <code>checkBalance(Customer customer)</code> returns the current balance.</li>
+                <li><strong>Deposit Funds:</strong> Users can deposit an amount via <code>deposit(Customer customer, int amount)</code> method.</li>
+                <li><strong>Withdraw Funds:</strong> Withdrawal is managed through the <code>withdraw(Customer customer, int amount)</code> method, checking for sufficient balance.</li>
+                <li><strong>Transfer Funds:</strong> Transfers are processed using the <code>transfer(Customer sender, Customer receiver, int amount, int otp)</code> method, requiring OTP verification.</li>
+            </ul>
+        
+            <h4>Code Repository:</h4>
+            <p><a href="https://github.com/Vinodyvini/BankProject.git" target="_blank">View on GitHub</a></p>
+        </div>
         
         <!-- Add more projects as needed -->
     </section>
